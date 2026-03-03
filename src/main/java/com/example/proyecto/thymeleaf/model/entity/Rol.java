@@ -1,4 +1,4 @@
-package co.javeriana.dw.proyecto.entity;
+package com.example.proyecto.thymeleaf.model.entity;
 
 public class Rol {
     

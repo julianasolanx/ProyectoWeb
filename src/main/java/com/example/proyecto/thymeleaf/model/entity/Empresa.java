@@ -1,4 +1,4 @@
-package co.javeriana.dw.proyecto.entity;
+package com.example.proyecto.thymeleaf.model.entity;
 
 import java.util.ArrayList;
 import java.util.List;
