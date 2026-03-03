@@ -20,5 +20,10 @@ import lombok.AllArgsConstructor;
 @SQLDelete(sql = "UPDATE application SET status = 1 WHERE id=?")
 public class UsuarioAdministrador {
 
-   
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String nombre;
+    private int status;
 }
